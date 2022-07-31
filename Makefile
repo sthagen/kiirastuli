@@ -1,8 +1,8 @@
 SHELL = /bin/bash
 
 .DEFAULT_GOAL := all
-isort = isort purgatory test
-black = black -S -l 120 --target-version py310 purgatory test
+isort = isort kiirastuli test
+black = black -S -l 120 --target-version py310 kiirastuli test
 
 .PHONY: install
 install:
@@ -27,17 +27,17 @@ init:
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	flake8 purgatory/ test/
+	flake8 kiirastuli/ test/
 	$(isort) --check-only --df
 	$(black) --check --diff
 
 .PHONY: types
 types:
-	mypy purgatory
+	mypy kiirastuli
 
 .PHONY: test
 test: clean
-	pytest --cov=purgatory --log-format="%(levelname)s %(message)s" --asyncio-mode=strict
+	pytest --cov=kiirastuli --log-format="%(levelname)s %(message)s" --asyncio-mode=strict
 
 .PHONY: testcov
 testcov: test
@@ -54,16 +54,16 @@ sbom:
 
 .PHONY: version
 version:
-	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_version import *" purgatory/__init__.py
+	@cog -I. -P -c -r --check --markers="[[fill ]]] [[[end]]]" -p "from gen_version import *" kiirastuli/__init__.py
 
 .PHONY: secure
 secure:
-	@bandit --output current-bandit.json --baseline baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build purgatory
+	@bandit --output current-bandit.json --baseline baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build kiirastuli
 	@diff -Nu {baseline,current}-bandit.json; printf "^ Only the timestamps ^^ ^^ ^^ ^^ ^^ ^^ should differ. OK?\n"
 
 .PHONY: baseline
 baseline:
-	@bandit --output baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build purgatory
+	@bandit --output baseline-bandit.json --format json --recursive --quiet --exclude ./test,./build kiirastuli
 	@cat baseline-bandit.json; printf "\n^ The new baseline ^^ ^^ ^^ ^^ ^^ ^^. OK?\n"
 
 .PHONY: clean

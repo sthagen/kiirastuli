@@ -15,8 +15,8 @@ DEFAULT_CONFIG_NAME = '.kiirastuli.json'
 DEFAULT_LF_ONLY = 'YES'
 
 # [[[fill git_describe()]]]
-__version__ = '2022.7.28+parent.9fb117a4'
-# [[[end]]] (checksum: a143e8c8551090fa81324b0683ba1a40)
+__version__ = '2022.7.30+parent.9c02148f'
+# [[[end]]] (checksum: 1543c5af69cff54e3f27eec8f5963a17)
 __version_info__ = tuple(
     e if '-' not in e else e.split('-')[0] for part in __version__.split('+') for e in part.split('.') if e != 'parent'
 )

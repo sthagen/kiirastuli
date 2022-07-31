@@ -1,4 +1,4 @@
-from purgatory.purgatory import parse
+from kiirastuli.kiirastuli import parse
 
 
 def test_parse():

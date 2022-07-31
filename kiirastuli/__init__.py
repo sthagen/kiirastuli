@@ -1,17 +1,17 @@
-"""Purge like hell."""
+"""Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble."""
 import os
 from typing import List
 
-APP_NAME = 'Purge like hell.'
-APP_ALIAS = 'purgatory'
-APP_ENV = 'PURGATORY'
+APP_NAME = 'Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.'
+APP_ALIAS = 'kiirastuli'
+APP_ENV = 'KIIRASTULI'
 DEBUG = bool(os.getenv(f'{APP_ENV}_DEBUG', ''))
 VERBOSE = bool(os.getenv(f'{APP_ENV}_VERBOSE', ''))
 QUIET = False
 STRICT = bool(os.getenv(f'{APP_ENV}_STRICT', ''))
 ENCODING = 'utf-8'
 ENCODING_ERRORS_POLICY = 'ignore'
-DEFAULT_CONFIG_NAME = '.purgatory.json'
+DEFAULT_CONFIG_NAME = '.kiirastuli.json'
 DEFAULT_LF_ONLY = 'YES'
 
 # [[[fill git_describe()]]]

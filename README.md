@@ -1,26 +1,26 @@
-# purgatory
+# kiirastuli
 
-Purge like hell to stay out of trouble.
+Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
 
-[License: MIT](https://git.sr.ht/~sthagen/purgatory/tree/default/item/LICENSE)
+[License: MIT](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE)
 
-[![version](https://img.shields.io/pypi/v/purgatory.svg?style=flat)](https://pypi.python.org/pypi/purgatory/)
-[![downloads](https://img.shields.io/pypi/dm/purgatory.svg?style=flat)](https://pypi.python.org/pypi/purgatory/)
-[![wheel](https://img.shields.io/pypi/wheel/purgatory.svg?style=flat)](https://pypi.python.org/pypi/purgatory/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/purgatory.svg?style=flat)](https://pypi.python.org/pypi/purgatory/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/purgatory.svg?style=flat)](https://pypi.python.org/pypi/purgatory/)
+[![version](https://img.shields.io/pypi/v/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![downloads](https://img.shields.io/pypi/dm/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![wheel](https://img.shields.io/pypi/wheel/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![supported-versions](https://img.shields.io/pypi/pyversions/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![supported-implementations](https://img.shields.io/pypi/implementation/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
 
 ## Documentation
 
-User and developer [documentation of purgatory](https://codes.dilettant.life/docs/purgatory).
+User and developer [documentation of kiirastuli](https://codes.dilettant.life/docs/kiirastuli).
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of purgatory](https://todo.sr.ht/~sthagen/purgatory).
+Feature requests and bug reports are bested entered in the [todos of kiirastuli](https://todo.sr.ht/~sthagen/kiirastuli).
 
 ## Primary Source repository
 
-The primary source repository of [purgatory is at sourcehut](https://git.sr.ht/~sthagen/purgatory)
+The primary source repository of [kiirastuli is at sourcehut](https://git.sr.ht/~sthagen/kiirastuli)
 a collection of tools useful for software development.
 
 ## Status

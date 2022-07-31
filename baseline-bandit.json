@@ -1,6 +1,6 @@
 {
   "errors": [],
-  "generated_at": "2022-07-31T11:23:38Z",
+  "generated_at": "2022-07-31T11:57:26Z",
   "metrics": {
     "_totals": {
       "CONFIDENCE.HIGH": 0,
@@ -15,7 +15,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "purgatory/__init__.py": {
+    "kiirastuli/__init__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -28,7 +28,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "purgatory/__main__.py": {
+    "kiirastuli/__main__.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -41,7 +41,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "purgatory/cli.py": {
+    "kiirastuli/cli.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,
@@ -54,7 +54,7 @@
       "nosec": 0,
       "skipped_tests": 0
     },
-    "purgatory/purgatory.py": {
+    "kiirastuli/kiirastuli.py": {
       "CONFIDENCE.HIGH": 0,
       "CONFIDENCE.LOW": 0,
       "CONFIDENCE.MEDIUM": 0,

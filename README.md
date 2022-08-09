@@ -16,7 +16,7 @@ User and developer [documentation of kiirastuli](https://codes.dilettant.life/do
 
 ## Bug Tracker
 
-Feature requests and bug reports are bested entered in the [todos of kiirastuli](https://todo.sr.ht/~sthagen/kiirastuli).
+Feature requests and bug reports are best entered in the [todos of kiirastuli](https://todo.sr.ht/~sthagen/kiirastuli).
 
 ## Primary Source repository
 

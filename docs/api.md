@@ -1,3 +1,15 @@
 # Command Line API
 
-TBD
+## Help
+
+```console
+kiirastuli
+...
+```
+
+## Purge
+
+```console
+kiirastuli --purge
+...
+```

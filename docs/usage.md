@@ -1,3 +1,8 @@
 # Usage
 
-TBD
+## Purge
+
+```console
+kiirastuli --purge
+...
+```

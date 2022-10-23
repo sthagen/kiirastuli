@@ -10,6 +10,6 @@ kiirastuli
 ## Purge
 
 ```console
-kiirastuli --purge
+kiirastuli --purge away/these
 ...
 ```

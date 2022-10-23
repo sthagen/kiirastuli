@@ -2,7 +2,80 @@
 requires = ["setuptools", "wheel"]
 build-backend = "setuptools.build_meta"
 
+[project]
+name = "kiirastuli"
+version = "2022.10.23"
+description = "Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble."
+readme = "README.md"
+authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
+maintainers = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+]
+keywords = ["developer-tools", "file-system", "validation", "verification"]
+dependencies = [
+    "scooby >= 0.6.0",
+    "typer >= 0.6.1",
+]
+requires-python = ">=3.8"
+
+[project.optional-dependencies]
+dev = ["black", "coverage", "flake8", "hypothesis", "mypy", "pytest", "pytest-cov", "pytest-flake8"]
+
+[project.urls]
+Homepage = "https://git.sr.ht/~sthagen/kiirastuli"
+Bug-Tracker = "https://todo.sr.ht/~sthagen/kiirastuli"
+Documentation = "https://codes.dilettant.life/docs/kiirastuli"
+Source-Code = "https://git.sr.ht/~sthagen/kiirastuli"
+Test-Coverage = "https://codes.dilettant.life/coverage/kiirastuli"
+
+[project.scripts]
+kiirastuli = "kiirastuli.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["kiirastuli"]
+exclude = ["test*"]
+
+[bdist_wheel]
+universal = true
+
 [tool.black]
 line-length = 120
-skip-string-normalization = "True"
+skip-string-normalization = true
 target-version = ["py38", "py39", "py310"]
+
+[tool.coverage.run]
+branch = true
+
+[tool.coverage.report]
+precision = 2
+exclude_lines = [
+    "pragma: no cover",
+    "raise NotImplementedError",
+    "if TYPE_CHECKING:",
+    "@overload",
+]
+omit = [
+    "*/__main__.py",
+]
+
+[tool.isort]
+line_length = 120
+known_first_party = "kiirastuli"
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+combine_as_imports = true
+
+[tool.mypy]
+strict = true
+implicit_reexport = true
+
+[tool.pytest]
+testpaths = "test"
+filterwarnings = "error"

@@ -1,5 +1,20 @@
 [
     {
+        "key": "puhdistusalue",
+        "package_name": "puhdistusalue",
+        "installed_version": "2022.7.24",
+        "required_version": "2022.7.24",
+        "dependencies": [
+            {
+                "key": "puristaa",
+                "package_name": "puristaa",
+                "installed_version": "2022.7.24",
+                "required_version": ">=2022.7.24",
+                "dependencies": []
+            }
+        ]
+    },
+    {
         "key": "scooby",
         "package_name": "scooby",
         "installed_version": "0.6.0",

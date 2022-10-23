@@ -1,8 +1,9 @@
-SHELL = /bin/bash
-
 .DEFAULT_GOAL := all
-isort = isort kiirastuli test
 black = black -S -l 120 --target-version py310 kiirastuli test
+flake8 = flake8 kiirastuli test
+isort = isort kiirastuli test
+pytest = pytest --asyncio-mode=strict --cov=kiirastuli --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
+types = mypy kiirastuli
 
 .PHONY: install
 install:
@@ -27,17 +28,17 @@ init:
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	flake8 kiirastuli/ test/
+	$(flake8)
 	$(isort) --check-only --df
 	$(black) --check --diff
 
 .PHONY: types
 types:
-	mypy kiirastuli
+	$(types)
 
 .PHONY: test
 test: clean
-	pytest --cov=kiirastuli --log-format="%(levelname)s %(message)s" --asyncio-mode=strict
+	$(pytest)
 
 .PHONY: testcov
 testcov: test

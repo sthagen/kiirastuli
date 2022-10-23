@@ -4,7 +4,7 @@ import sys
 from typing import List, Union
 
 import kiirastuli.kiirastuli as api
-from kiirastuli import APP_ALIAS, APP_NAME, parse_csl
+from kiirastuli import APP_ALIAS, APP_NAME, log, parse_csl
 
 
 def parse_request(argv: List[str]) -> Union[int, argparse.Namespace]:
@@ -13,18 +13,18 @@ def parse_request(argv: List[str]) -> Union[int, argparse.Namespace]:
         prog=APP_ALIAS, description=APP_NAME, formatter_class=argparse.RawTextHelpFormatter
     )
     parser.add_argument(
-        '--folders',
-        '-f',
+        '--purge',
+        '-p',
         dest='folders',
         default='',
-        help='Folders to visit. Optional\n(default: positional folders value)',
+        help='Folders to visit and purge files from. Optional\n(default: positional purge value)',
         required=False,
     )
     parser.add_argument(
         'folders_pos',
         nargs='?',
         default='',
-        help='Folders to visit. Optional\n(default: value of folders option)',
+        help='Folders to visit and purge files from. Optional\n(default: value of purge option)',
     )
     parser.add_argument(
         '--human',
@@ -65,7 +65,8 @@ def parse_request(argv: List[str]) -> Union[int, argparse.Namespace]:
     if all(pathlib.Path(folder).is_dir() for folder in options.folders):
         return options
 
-    parser.error(f'some in {options.folders} do not exist or are no folders')
+    log.error(f'some in {options.folders} do not exist or are no folders')
+    return 1
 
 
 def main(argv: Union[List[str], None] = None) -> int:
@@ -74,4 +75,4 @@ def main(argv: Union[List[str], None] = None) -> int:
     options = parse_request(argv)
     if isinstance(options, int):
         return 0
-    return api.main(options)
+    return api.main(options)  # type: ignore

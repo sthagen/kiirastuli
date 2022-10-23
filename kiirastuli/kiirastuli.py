@@ -9,9 +9,11 @@ import logging
 import os
 import typing
 
-from puhdistusalue.puhdistusalue import read_folder, triage_hashes
+from puhdistusalue.puhdistusalue import read_folder, triage_hashes  # type: ignore
 from puristaa.puristaa import prefix_compression  # type: ignore
+
 from kiirastuli import log
+
 BUFFER_BYTES = 2 << 15
 
 

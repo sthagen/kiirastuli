@@ -3,6 +3,8 @@ site_description: "Purgatory (Finnish: kiirastuli) - purge like hell to stay out
 
 theme:
   name: 'material'
+  logo: assets/logo.png
+  favicon: images/favicon.ico
   features:
     - navigation.expand
     - toc.integrate

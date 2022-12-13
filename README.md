@@ -1,8 +1,10 @@
-# kiirastuli
+# Kiirastuli
 
 Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
 
 [License: MIT](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE)
+
+Third party dependencies are documented in the folder [third-party](third-party/README.md).
 
 [![version](https://img.shields.io/pypi/v/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
 [![downloads](https://pepy.tech/badge/kiirastuli/month)](https://pepy.tech/project/kiirastuli)

@@ -1,4 +1,4 @@
 puhdistusalue==2022.7.24
 puristaa==2022.7.24
-scooby==0.6.0
-typer==0.6.1
+scooby==0.7.0
+typer==0.7.0

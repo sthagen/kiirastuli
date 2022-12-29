@@ -36,19 +36,19 @@
 <text text-anchor="middle" x="119.11" y="-135.41" font-family="Times,serif" font-size="14.00">scooby</text>
 <text text-anchor="middle" x="119.11" y="-120.41" font-family="Times,serif" font-size="14.00">0.7.0</text>
 </g>
-<!-- puristaa -->
-<g id="node4" class="node">
-<title>puristaa</title>
-<ellipse fill="none" stroke="black" cx="240.11" cy="-26.87" rx="50.41" ry="26.74"/>
-<text text-anchor="middle" x="240.11" y="-30.67" font-family="Times,serif" font-size="14.00">puristaa</text>
-<text text-anchor="middle" x="240.11" y="-15.67" font-family="Times,serif" font-size="14.00">2022.7.24</text>
-</g>
 <!-- puhdistusalue -->
-<g id="node5" class="node">
+<g id="node4" class="node">
 <title>puhdistusalue</title>
 <ellipse fill="none" stroke="black" cx="240.11" cy="-131.61" rx="64.19" ry="26.74"/>
 <text text-anchor="middle" x="240.11" y="-135.41" font-family="Times,serif" font-size="14.00">puhdistusalue</text>
 <text text-anchor="middle" x="240.11" y="-120.41" font-family="Times,serif" font-size="14.00">2022.7.24</text>
+</g>
+<!-- puristaa -->
+<g id="node5" class="node">
+<title>puristaa</title>
+<ellipse fill="none" stroke="black" cx="240.11" cy="-26.87" rx="50.41" ry="26.74"/>
+<text text-anchor="middle" x="240.11" y="-30.67" font-family="Times,serif" font-size="14.00">puristaa</text>
+<text text-anchor="middle" x="240.11" y="-15.67" font-family="Times,serif" font-size="14.00">2022.7.24</text>
 </g>
 <!-- puhdistusalue&#45;&gt;puristaa -->
 <g id="edge2" class="edge">

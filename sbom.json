@@ -2,10 +2,10 @@
   "$schema": "http://cyclonedx.org/schema/bom-1.4.schema.json",
   "bomFormat": "CycloneDX",
   "specVersion": "1.4",
-  "serialNumber": "urn:uuid:9b1decb0-bb2d-4f15-9da5-5c9124c2e30a",
+  "serialNumber": "urn:uuid:67089dd9-f4f6-4582-8a9a-11c49ab43082",
   "version": 1,
   "metadata": {
-    "timestamp": "2022-12-28T16:21:18.563834+00:00",
+    "timestamp": "2022-12-29T15:37:45.282799+00:00",
     "tools": [
       {
         "vendor": "CycloneDX",
@@ -56,28 +56,21 @@
   "components": [
     {
       "type": "library",
-      "bom-ref": "9f67858e-1120-464d-ab43-5d3f163d5778",
+      "bom-ref": "551bca95-ed4f-490c-a078-8a4172b95e60",
       "name": "puhdistusalue",
       "version": "2022.7.24",
       "purl": "pkg:pypi/puhdistusalue@2022.7.24"
     },
     {
       "type": "library",
-      "bom-ref": "d00d0942-4eaa-45d2-a751-9ebd51e36059",
-      "name": "puristaa",
-      "version": "2022.7.24",
-      "purl": "pkg:pypi/puristaa@2022.7.24"
-    },
-    {
-      "type": "library",
-      "bom-ref": "07a28796-92a8-4d74-81d7-ed4b344adef3",
+      "bom-ref": "5d40a5b7-d57f-4b11-a856-1803fd71c166",
       "name": "scooby",
       "version": "0.7.0",
       "purl": "pkg:pypi/scooby@0.7.0"
     },
     {
       "type": "library",
-      "bom-ref": "8b72c344-a3d8-45e7-9161-57b687d4f3ae",
+      "bom-ref": "23bac9c7-839a-48cb-af53-cc58147c535b",
       "name": "typer",
       "version": "0.7.0",
       "purl": "pkg:pypi/typer@0.7.0"
@@ -85,19 +78,15 @@
   ],
   "dependencies": [
     {
-      "ref": "9f67858e-1120-464d-ab43-5d3f163d5778",
+      "ref": "551bca95-ed4f-490c-a078-8a4172b95e60",
       "dependsOn": []
     },
     {
-      "ref": "d00d0942-4eaa-45d2-a751-9ebd51e36059",
+      "ref": "5d40a5b7-d57f-4b11-a856-1803fd71c166",
       "dependsOn": []
     },
     {
-      "ref": "07a28796-92a8-4d74-81d7-ed4b344adef3",
-      "dependsOn": []
-    },
-    {
-      "ref": "8b72c344-a3d8-45e7-9161-57b687d4f3ae",
+      "ref": "23bac9c7-839a-48cb-af53-cc58147c535b",
       "dependsOn": []
     }
   ]

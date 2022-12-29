@@ -1,7 +1,6 @@
 .DEFAULT_GOAL := all
 black = black -S -l 120 --target-version py310 kiirastuli test
-flake8 = flake8 kiirastuli test
-isort = isort kiirastuli test
+lint = ruff kiirastuli test
 pytest = pytest --asyncio-mode=strict --cov=kiirastuli --cov-report term-missing:skip-covered --cov-branch --log-format="%(levelname)s %(message)s"
 types = mypy kiirastuli
 
@@ -17,7 +16,7 @@ install-all: install
 
 .PHONY: format
 format:
-	$(isort)
+	$(lint) --fix
 	$(black)
 
 .PHONY: init
@@ -28,8 +27,7 @@ init:
 .PHONY: lint
 lint:
 	python setup.py check -ms
-	$(flake8)
-	$(isort) --check-only --df
+	$(lint) --diff
 	$(black) --check --diff
 
 .PHONY: types

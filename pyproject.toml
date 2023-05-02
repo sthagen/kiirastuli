@@ -20,8 +20,8 @@ classifiers = [
 keywords = ["developer-tools", "file-system", "validation", "verification"]
 dependencies = [
     "puhdistusalue >= 2022.7.24",
-    "scooby >= 0.7.1",
-    "typer >= 0.7.0",
+    "scooby >= 0.7.2",
+    "typer >= 0.9.0",
 ]
 requires-python = ">=3.9"
 

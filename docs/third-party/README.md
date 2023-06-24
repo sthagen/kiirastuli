@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom.json) with SHA256 checksum ([37b0e161 ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom.json.sha256 "sha256:37b0e161f3de932215c04a7404193a61dd689bd07387892d3e28187093ef82d7")).
-<!--[[[end]]] (checksum: 6e686216bc364047c05c38784065b3f5)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json) with SHA256 checksum ([e1f91ddc ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json.sha256 "sha256:e1f91ddc3a9638260fb12a0dc18e6e81c0dfe3983d272aa77d7fe5861b445f3f")).
+<!--[[[end]]] (checksum: 117eded88a7475c7800069465b29bc2b)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,9 +13,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                      | Version                                                        | License     | Author                                                              | Description (from packaging data)                                                                                                     |
 |:----------------------------------------------------------|:---------------------------------------------------------------|:------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
 | [puhdistusalue](https://git.sr.ht/~sthagen/puhdistusalue) | [2022.7.24](https://pypi.org/project/puhdistusalue/2022.7.24/) | MIT License | Stefan Hagen                                                        | Puhdistusalue (Finnish for clean area here meaning purge range) - Purge monotonically named files in folders keeping range endpoints. |
-| [scooby](https://github.com/banesullivan/scooby)          | [0.7.0](https://pypi.org/project/scooby/0.7.0/)                | MIT License | Dieter Werthmüller, Bane Sullivan, Alex Kaszynski, and contributors | A Great Dane turned Python environment detective                                                                                      |
-| [typer](https://github.com/tiangolo/typer)                | [0.7.0](https://pypi.org/project/typer/0.7.0/)                 | MIT License | Sebastián Ramírez                                                   | Typer, build great CLIs. Easy to code. Based on Python type hints.                                                                    |
-<!--[[[end]]] (checksum: ec2630d1870ff4da727af79a3cc9c79c)-->
+| [scooby](https://github.com/banesullivan/scooby)          | [0.7.2](https://pypi.org/project/scooby/0.7.2/)                | MIT License | Dieter Werthmüller, Bane Sullivan, Alex Kaszynski, and contributors | A Great Dane turned Python environment detective                                                                                      |
+| [typer](https://github.com/tiangolo/typer)                | [0.9.0](https://pypi.org/project/typer/0.9.0/)                 | MIT License | Sebastián Ramírez                                                   | Typer, build great CLIs. Easy to code. Based on Python type hints.                                                                    |
+<!--[[[end]]] (checksum: 959bc29f328d464b37e2c686ee60f78f)-->
 
 ### Indirect Dependencies
 
@@ -41,9 +41,10 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 <!--[[[fill dependency_tree_console_text()]]]-->
 ````console
 puhdistusalue==2022.7.24
-  - puristaa [required: >=2022.7.24, installed: 2022.7.24]
-scooby==0.7.0
-typer==0.7.0
-  - click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+└── puristaa [required: >=2022.7.24, installed: 2022.7.24]
+scooby==0.7.2
+typer==0.9.0
+├── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
+└── typing-extensions [required: >=3.7.4.3, installed: 4.4.0]
 ````
-<!--[[[end]]] (checksum: 803bafb0ee62cc5cde25297b5493de2f)-->
+<!--[[[end]]] (checksum: f6c1fe64719e028667ebfcd1fe362a1f)-->

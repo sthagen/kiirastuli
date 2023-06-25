@@ -1,9 +1,7 @@
-# Change History
+# Changes
 
-## 2022.10.23
+2022.10.23
+:    * Added command line interface and documentation
 
-* Added command line interface and documentation
-
-## 2022.7.30
-
-* Initial release on PyPI
+2022.7.30
+:    * Initial release on PyPI

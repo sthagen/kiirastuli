@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json) with SHA256 checksum ([e1f91ddc ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json.sha256 "sha256:e1f91ddc3a9638260fb12a0dc18e6e81c0dfe3983d272aa77d7fe5861b445f3f")).
-<!--[[[end]]] (checksum: 117eded88a7475c7800069465b29bc2b)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json) with SHA256 checksum ([12161ea5 ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json.sha256 "sha256:12161ea52782dbdef033a61321f8a7c66a43842362fe86bed8684f52e19478c4")).
+<!--[[[end]]] (checksum: 0e2b509d2ad04c7aefa04545f9554260)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -20,11 +20,11 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                            | Version                                                   | License     | Author         | Description (from packaging data)                                                        |
-|:------------------------------------------------|:----------------------------------------------------------|:------------|:---------------|:-----------------------------------------------------------------------------------------|
-| [click](https://palletsprojects.com/p/click/)   | [8.1.3](https://pypi.org/project/click/8.1.3/)            | BSD License | Armin Ronacher | Composable command line interface toolkit                                                |
-| [puristaa](https://git.sr.ht/~sthagen/puristaa) | [2022.7.24](https://pypi.org/project/puristaa/2022.7.24/) | MIT License | Stefan Hagen   | Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences. |
-<!--[[[end]]] (checksum: f5bd7773210308bff472939b2fe906c0)-->
+| Name                                            | Version                                                   | License     | Author       | Description (from packaging data)                                                        |
+|:------------------------------------------------|:----------------------------------------------------------|:------------|:-------------|:-----------------------------------------------------------------------------------------|
+| [click](https://palletsprojects.com/p/click/)   | [8.1.6](https://pypi.org/project/click/8.1.6/)            | BSD License | UNKNOWN      | Composable command line interface toolkit                                                |
+| [puristaa](https://git.sr.ht/~sthagen/puristaa) | [2022.7.24](https://pypi.org/project/puristaa/2022.7.24/) | MIT License | Stefan Hagen | Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences. |
+<!--[[[end]]] (checksum: 3aa935496e7f91fa41f98f9b43fb07b1)-->
 
 ## Dependency Tree(s)
 
@@ -44,7 +44,7 @@ puhdistusalue==2022.7.24
 └── puristaa [required: >=2022.7.24, installed: 2022.7.24]
 scooby==0.7.2
 typer==0.9.0
-├── click [required: >=7.1.1,<9.0.0, installed: 8.1.3]
-└── typing-extensions [required: >=3.7.4.3, installed: 4.4.0]
+├── click [required: >=7.1.1,<9.0.0, installed: 8.1.6]
+└── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: f6c1fe64719e028667ebfcd1fe362a1f)-->
+<!--[[[end]]] (checksum: 19e9e21ac18e5885e3463f68cd6eb381)-->

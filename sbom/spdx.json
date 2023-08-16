@@ -3,23 +3,23 @@
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
     "comment" : "Converted from CycloneDX spec version 1.4",
-    "created" : "2023-08-15T06:00:42Z",
+    "created" : "2023-08-16T06:19:41Z",
     "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.2", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
     "licenseListVersion" : "3.21"
   },
   "name" : "From-Cyclone-DX",
   "dataLicense" : "CC0-1.0",
   "annotations" : [ {
-    "annotationDate" : "2023-08-15T06:00:44Z",
+    "annotationDate" : "2023-08-16T06:19:44Z",
     "annotationType" : "OTHER",
     "annotator" : "Tool: CycloneToSpdx",
     "comment" : "MISSING_CDX_PROPERTY:extensions={}"
   } ],
-  "documentNamespace" : "https://cyclonedx/8afa97f4-c11e-4fa3-b875-a7c8f39e9a92_1",
+  "documentNamespace" : "https://cyclonedx/dab19f3b-9ba5-4df1-a651-666126c26a4f_1",
   "packages" : [ {
-    "SPDXID" : "SPDXRef-6d914169-de9e-463a-b1a0-1fbea3de7e41",
+    "SPDXID" : "SPDXRef-e5040ceb-29cf-4df2-9369-11f359df6a30",
     "annotations" : [ {
-      "annotationDate" : "2023-08-15T06:00:44Z",
+      "annotationDate" : "2023-08-16T06:19:44Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -28,19 +28,19 @@
     "downloadLocation" : "NOASSERTION",
     "externalRefs" : [ {
       "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/typer@0.9.0",
+      "referenceLocator" : "pkg:pypi/puhdistusalue@2022.7.24",
       "referenceType" : "purl"
     } ],
     "filesAnalyzed" : false,
     "licenseConcluded" : "NOASSERTION",
     "licenseDeclared" : "NOASSERTION",
-    "name" : "typer",
+    "name" : "puhdistusalue",
     "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "0.9.0"
+    "versionInfo" : "2022.7.24"
   }, {
-    "SPDXID" : "SPDXRef-620db65a-9da7-4c8b-9eb1-5c674d07a1d3",
+    "SPDXID" : "SPDXRef-7e01879a-79f4-4c50-b5f4-f7567c41c7db",
     "annotations" : [ {
-      "annotationDate" : "2023-08-15T06:00:44Z",
+      "annotationDate" : "2023-08-16T06:19:44Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -59,9 +59,9 @@
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "0.7.2"
   }, {
-    "SPDXID" : "SPDXRef-33de670b-6db7-44c5-bcb0-12c5e58b689c",
+    "SPDXID" : "SPDXRef-c7d80e55-dcf5-4465-b7fe-3b533f0086fc",
     "annotations" : [ {
-      "annotationDate" : "2023-08-15T06:00:44Z",
+      "annotationDate" : "2023-08-16T06:19:44Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -70,27 +70,27 @@
     "downloadLocation" : "NOASSERTION",
     "externalRefs" : [ {
       "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/puhdistusalue@2022.7.24",
+      "referenceLocator" : "pkg:pypi/typer@0.9.0",
       "referenceType" : "purl"
     } ],
     "filesAnalyzed" : false,
     "licenseConcluded" : "NOASSERTION",
     "licenseDeclared" : "NOASSERTION",
-    "name" : "puhdistusalue",
+    "name" : "typer",
     "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "2022.7.24"
+    "versionInfo" : "0.9.0"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-33de670b-6db7-44c5-bcb0-12c5e58b689c"
+    "relatedSpdxElement" : "SPDXRef-e5040ceb-29cf-4df2-9369-11f359df6a30"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-6d914169-de9e-463a-b1a0-1fbea3de7e41"
+    "relatedSpdxElement" : "SPDXRef-c7d80e55-dcf5-4465-b7fe-3b533f0086fc"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-620db65a-9da7-4c8b-9eb1-5c674d07a1d3"
+    "relatedSpdxElement" : "SPDXRef-7e01879a-79f4-4c50-b5f4-f7567c41c7db"
   } ]
 }

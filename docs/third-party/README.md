@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json) with SHA256 checksum ([07c2d829 ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json.sha256 "sha256:07c2d829644fcec29de7f1bc65ff2f808e88a5db2c632d4808932b62e4148a8c")).
-<!--[[[end]]] (checksum: 2c53f591da9e5352a0cb7e30f5f8a5fd)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json) with SHA256 checksum ([3c6e67fc ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/sbom/cdx.json.sha256 "sha256:3c6e67fcea65024374ec4d2de79a70a49ae9e5d0bab6756652472606247261ce")).
+<!--[[[end]]] (checksum: 8105d0e43ed9ca694be985e7ce497023)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -13,9 +13,9 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 | Name                                                      | Version                                                        | License     | Author                                                              | Description (from packaging data)                                                                                                     |
 |:----------------------------------------------------------|:---------------------------------------------------------------|:------------|:--------------------------------------------------------------------|:--------------------------------------------------------------------------------------------------------------------------------------|
 | [puhdistusalue](https://git.sr.ht/~sthagen/puhdistusalue) | [2022.7.24](https://pypi.org/project/puhdistusalue/2022.7.24/) | MIT License | Stefan Hagen                                                        | Puhdistusalue (Finnish for clean area here meaning purge range) - Purge monotonically named files in folders keeping range endpoints. |
-| [scooby](https://github.com/banesullivan/scooby)          | [0.7.2](https://pypi.org/project/scooby/0.7.2/)                | MIT License | Dieter Werthmüller, Bane Sullivan, Alex Kaszynski, and contributors | A Great Dane turned Python environment detective                                                                                      |
+| [scooby](https://github.com/banesullivan/scooby)          | [0.7.4](https://pypi.org/project/scooby/0.7.4/)                | MIT License | Dieter Werthmüller, Bane Sullivan, Alex Kaszynski, and contributors | A Great Dane turned Python environment detective                                                                                      |
 | [typer](https://github.com/tiangolo/typer)                | [0.9.0](https://pypi.org/project/typer/0.9.0/)                 | MIT License | Sebastián Ramírez                                                   | Typer, build great CLIs. Easy to code. Based on Python type hints.                                                                    |
-<!--[[[end]]] (checksum: 959bc29f328d464b37e2c686ee60f78f)-->
+<!--[[[end]]] (checksum: d19d31a42cb92dfa39728e36bb943272)-->
 
 ### Indirect Dependencies
 
@@ -42,9 +42,9 @@ Base graphviz file in dot format: [Trees of the direct dependencies](package-dep
 ````console
 puhdistusalue==2022.7.24
 └── puristaa [required: >=2022.7.24, installed: 2022.7.24]
-scooby==0.7.2
+scooby==0.7.4
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.6]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]
 ````
-<!--[[[end]]] (checksum: 19e9e21ac18e5885e3463f68cd6eb381)-->
+<!--[[[end]]] (checksum: d6aa94a75e4a0ed6fc3bd7920a3da0d1)-->

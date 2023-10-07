@@ -1,6 +1,6 @@
 puhdistusalue==2022.7.24
 └── puristaa [required: >=2022.7.24, installed: 2022.7.24]
-scooby==0.7.2
+scooby==0.7.4
 typer==0.9.0
 ├── click [required: >=7.1.1,<9.0.0, installed: 8.1.6]
 └── typing-extensions [required: >=3.7.4.3, installed: 4.7.1]

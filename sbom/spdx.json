@@ -3,23 +3,23 @@
   "spdxVersion" : "SPDX-2.3",
   "creationInfo" : {
     "comment" : "Converted from CycloneDX spec version 1.4",
-    "created" : "2023-08-16T06:19:41Z",
+    "created" : "2023-10-02T15:30:02Z",
     "creators" : [ "Tool: CycloneDX:cyclonedx-bom-3.11.2", "Tool: CycloneDX:cyclonedx-python-lib-3.1.5", "Tool: CycloneToSpdx-0.1.4" ],
     "licenseListVersion" : "3.21"
   },
   "name" : "From-Cyclone-DX",
   "dataLicense" : "CC0-1.0",
   "annotations" : [ {
-    "annotationDate" : "2023-08-16T06:19:44Z",
+    "annotationDate" : "2023-10-02T15:30:03Z",
     "annotationType" : "OTHER",
     "annotator" : "Tool: CycloneToSpdx",
     "comment" : "MISSING_CDX_PROPERTY:extensions={}"
   } ],
-  "documentNamespace" : "https://cyclonedx/dab19f3b-9ba5-4df1-a651-666126c26a4f_1",
+  "documentNamespace" : "https://cyclonedx/bf849033-fe84-4298-acfe-31b306be2d1d_1",
   "packages" : [ {
-    "SPDXID" : "SPDXRef-e5040ceb-29cf-4df2-9369-11f359df6a30",
+    "SPDXID" : "SPDXRef-e0eac1a0-73c8-45ce-b0c6-cdf8f3fc731f",
     "annotations" : [ {
-      "annotationDate" : "2023-08-16T06:19:44Z",
+      "annotationDate" : "2023-10-02T15:30:03Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -38,30 +38,9 @@
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "2022.7.24"
   }, {
-    "SPDXID" : "SPDXRef-7e01879a-79f4-4c50-b5f4-f7567c41c7db",
+    "SPDXID" : "SPDXRef-82253fc9-886d-4fe7-ac3c-cf5f3a8ad364",
     "annotations" : [ {
-      "annotationDate" : "2023-08-16T06:19:44Z",
-      "annotationType" : "OTHER",
-      "annotator" : "Tool: CycloneToSpdx",
-      "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
-    } ],
-    "copyrightText" : "NOASSERTION",
-    "downloadLocation" : "NOASSERTION",
-    "externalRefs" : [ {
-      "referenceCategory" : "PACKAGE-MANAGER",
-      "referenceLocator" : "pkg:pypi/scooby@0.7.2",
-      "referenceType" : "purl"
-    } ],
-    "filesAnalyzed" : false,
-    "licenseConcluded" : "NOASSERTION",
-    "licenseDeclared" : "NOASSERTION",
-    "name" : "scooby",
-    "primaryPackagePurpose" : "LIBRARY",
-    "versionInfo" : "0.7.2"
-  }, {
-    "SPDXID" : "SPDXRef-c7d80e55-dcf5-4465-b7fe-3b533f0086fc",
-    "annotations" : [ {
-      "annotationDate" : "2023-08-16T06:19:44Z",
+      "annotationDate" : "2023-10-02T15:30:03Z",
       "annotationType" : "OTHER",
       "annotator" : "Tool: CycloneToSpdx",
       "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
@@ -79,18 +58,39 @@
     "name" : "typer",
     "primaryPackagePurpose" : "LIBRARY",
     "versionInfo" : "0.9.0"
+  }, {
+    "SPDXID" : "SPDXRef-7bb4f719-7802-413e-b8e2-ceda57f51427",
+    "annotations" : [ {
+      "annotationDate" : "2023-10-02T15:30:03Z",
+      "annotationType" : "OTHER",
+      "annotator" : "Tool: CycloneToSpdx",
+      "comment" : "MISSING_CDX_PROPERTY:componentType=\"LIBRARY\""
+    } ],
+    "copyrightText" : "NOASSERTION",
+    "downloadLocation" : "NOASSERTION",
+    "externalRefs" : [ {
+      "referenceCategory" : "PACKAGE-MANAGER",
+      "referenceLocator" : "pkg:pypi/scooby@0.7.4",
+      "referenceType" : "purl"
+    } ],
+    "filesAnalyzed" : false,
+    "licenseConcluded" : "NOASSERTION",
+    "licenseDeclared" : "NOASSERTION",
+    "name" : "scooby",
+    "primaryPackagePurpose" : "LIBRARY",
+    "versionInfo" : "0.7.4"
   } ],
   "relationships" : [ {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-e5040ceb-29cf-4df2-9369-11f359df6a30"
+    "relatedSpdxElement" : "SPDXRef-e0eac1a0-73c8-45ce-b0c6-cdf8f3fc731f"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-c7d80e55-dcf5-4465-b7fe-3b533f0086fc"
+    "relatedSpdxElement" : "SPDXRef-82253fc9-886d-4fe7-ac3c-cf5f3a8ad364"
   }, {
     "spdxElementId" : "SPDXRef-DOCUMENT",
     "relationshipType" : "DESCRIBES",
-    "relatedSpdxElement" : "SPDXRef-7e01879a-79f4-4c50-b5f4-f7567c41c7db"
+    "relatedSpdxElement" : "SPDXRef-7bb4f719-7802-413e-b8e2-ceda57f51427"
   } ]
 }

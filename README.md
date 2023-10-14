@@ -2,7 +2,7 @@
 
 Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
 
-[License: MIT](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE)
+[License: MIT](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE) | 
 [Country of origin: Switzerland](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/COUNTRY-OF-ORIGIN)
 
 Third party dependencies are documented in the folder [third-party](docs/third-party/README.md).

@@ -6,8 +6,8 @@ Versions of kiirastuli currently being supported with security updates.
 
 | Version(s)   | Supported |
 |:-------------|:----------|
-| 2022.10.23   | yes       |
-| < 2022.10.23 | no        |
+| 2023.10.21   | yes       |
+| < 2023.10.21 | no        |
 
 ## Reporting a Vulnerability
 

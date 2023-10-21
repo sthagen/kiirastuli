@@ -1,8 +1,8 @@
 # Third Party Dependencies
 
 <!--[[[fill sbom_sha256()]]]-->
-The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([2d8a0574 ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/etc/sbom/cdx.json.sha256 "sha256:2d8a0574236419a40cc4c4fb6f3caad97914f697a5071a61050d595a1eba935b")).
-<!--[[[end]]] (checksum: 0e186e361c1e6b19776cc9f8d6998af7)-->
+The [SBOM in CycloneDX v1.4 JSON format](https://git.sr.ht/~sthagen/kiirastuli/blob/default/etc/sbom/cdx.json) with SHA256 checksum ([0f5930bd ...](https://git.sr.ht/~sthagen/kiirastuli/blob/default/etc/sbom/cdx.json.sha256 "sha256:0f5930bd8308c0c0d0acfd235b11e2090fed5439540a5a4177177755a7bdccd7")).
+<!--[[[end]]] (checksum: 9c03c4c5052d734dcefe10f0a37d76d8)-->
 ## Licenses 
 
 JSON files with complete license info of: [direct dependencies](direct-dependency-licenses.json) | [all dependencies](all-dependency-licenses.json)
@@ -20,11 +20,12 @@ JSON files with complete license info of: [direct dependencies](direct-dependenc
 ### Indirect Dependencies
 
 <!--[[[fill indirect_dependencies_table()]]]-->
-| Name                                            | Version                                                   | License     | Author                                | Description (from packaging data)                                                        |
-|:------------------------------------------------|:----------------------------------------------------------|:------------|:--------------------------------------|:-----------------------------------------------------------------------------------------|
-| [click](https://palletsprojects.com/p/click/)   | [8.1.6](https://pypi.org/project/click/8.1.6/)            | BSD License | Pallets <contact@palletsprojects.com> | Composable command line interface toolkit                                                |
-| [puristaa](https://git.sr.ht/~sthagen/puristaa) | [2022.7.24](https://pypi.org/project/puristaa/2022.7.24/) | MIT License | Stefan Hagen                          | Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences. |
-<!--[[[end]]] (checksum: 1c8887d2dcd652543a47a4ceefbfa84e)-->
+| Name                                                             | Version                                                    | License                            | Author                                                                                | Description (from packaging data)                                                        |
+|:-----------------------------------------------------------------|:-----------------------------------------------------------|:-----------------------------------|:--------------------------------------------------------------------------------------|:-----------------------------------------------------------------------------------------|
+| [click](https://palletsprojects.com/p/click/)                    | [8.1.6](https://pypi.org/project/click/8.1.6/)             | BSD License                        | Pallets <contact@palletsprojects.com>                                                 | Composable command line interface toolkit                                                |
+| [puristaa](https://git.sr.ht/~sthagen/puristaa)                  | [2022.7.24](https://pypi.org/project/puristaa/2022.7.24/)  | MIT License                        | Stefan Hagen                                                                          | Puristaa (Finnish for compress) - shared prefix compression of ordered string sequences. |
+| [typing_extensions](https://github.com/python/typing_extensions) | [4.7.1](https://pypi.org/project/typing_extensions/4.7.1/) | Python Software Foundation License | "Guido van Rossum, Jukka Lehtosalo, Łukasz Langa, Michael Lee" <levkivskyi@gmail.com> | Backported and Experimental Type Hints for Python 3.7+                                   |
+<!--[[[end]]] (checksum: 1c9a8bd7d05e17e5f6dd731a3755e828)-->
 
 ## Dependency Tree(s)
 

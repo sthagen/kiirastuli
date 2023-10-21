@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "kiirastuli"
-version = "2022.10.23"
+version = "2023.10.21"
 description = "Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble."
 readme = "README.md"
 authors = [{ name = "Stefan Hagen", email = "stefan@hagen.link" }]

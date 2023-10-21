@@ -1,0 +1,14 @@
+name: kiirastuli
+description: Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
+license_spdx: MIT
+version: 2022.10.23
+spec_version: 1.0
+home_url: https://git.sr.ht/~sthagen/kiirastuli
+news_url: https://libraries.io/pypi/kiirastuli/versions.atom
+date: 2022-10-23
+about_resource: ./
+libraries_io_url: https://libraries.io/pypi/kiirastuli?number=2022.10.23
+vcs_tool: git
+vcs_repository: https://git.sr.ht/~sthagen/kiirastuli
+vcs_branch: default
+

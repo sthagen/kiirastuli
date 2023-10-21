@@ -2,3 +2,4 @@
 packages:
 - click
 - puristaa
+- typing-extensions

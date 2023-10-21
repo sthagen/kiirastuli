@@ -1,5 +1,7 @@
 site_name: Kiirastuli
 site_description: "Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble."
+docs_dir: ../docs
+site_dir: ../site
 
 theme:
   name: 'material'

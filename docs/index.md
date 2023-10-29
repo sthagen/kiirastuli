@@ -2,18 +2,15 @@
 
 Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
 
-[License: MIT](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE) |
-[Country of origin: Switzerland](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/COUNTRY-OF-ORIGIN) |
-[Export control classification number(ECCN): EAR99](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![license](badges/license-spdx-mit.svg)](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/LICENSE)
+[![Country of Origin](badges/country-of-origin-name-switzerland-neutral.svg)](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/COUNTRY-OF-ORIGIN)
+[![Export Classification Control Number (ECCN)](badges/export-control-classification-number_eccn-ear99-neutral.svg)](https://git.sr.ht/~sthagen/kiirastuli/tree/default/item/EXPORT-CONTROL-CLASSIFICATION-NUMBER)
+[![Configuration](badges/configuration-sbom.svg)](third-party/index.html)
 
-Third party dependencies are documented in the folder [third-party](third-party/README.md).
-
-[![version](https://img.shields.io/pypi/v/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
-[![downloads](https://static.pepy.tech/badge/kiirastuli/month)](https://pepy.tech/project/kiirastuli)
-[![wheel](https://img.shields.io/pypi/wheel/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
-[![supported-versions](https://img.shields.io/pypi/pyversions/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
-[![supported-implementations](https://img.shields.io/pypi/implementation/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
-[![maintenance-status](https://img.shields.io/github/commit-activity/y/sthagen/kiirastuli.svg?style=flat)](https://git.sr.ht/~sthagen/kiirastuli/log)
+[![Version](https://img.shields.io/pypi/v/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![Downloads](https://static.pepy.tech/badge/kiirastuli/month)](https://pepy.tech/project/kiirastuli)
+[![Supported Versions](https://img.shields.io/pypi/pyversions/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![Maintenance Status](https://img.shields.io/github/commit-activity/y/sthagen/kiirastuli.svg?style=flat)](https://git.sr.ht/~sthagen/kiirastuli/log)
 
 ## Bug Tracker
 

@@ -9,7 +9,7 @@ Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble.
 
 [![Version](docs/badges/latest-release.svg)](https://pypi.python.org/pypi/kiirastuli/)
 [![Downloads](docs/badges/downloads-per-month.svg)](https://pepy.tech/project/kiirastuli)
-[![Supported Versions](https://img.shields.io/pypi/pyversions/kiirastuli.svg?style=flat)](https://pypi.python.org/pypi/kiirastuli/)
+[![Python](docs/badges/python-versions.svg)](https://pypi.python.org/pypi/kiirastuli/)
 [![Maintenance Status](docs/badges/commits-per-year.svg)](https://git.sr.ht/~sthagen/kiirastuli/log)
 
 ## Documentation

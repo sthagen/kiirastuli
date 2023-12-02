@@ -1,7 +1,7 @@
 {
   "kiirastuli": {
-    "version": "7.3.2",
-    "timestamp": "2023-12-02T15:20:00.844571",
+    "coverage_tool_version": "7.3.2",
+    "timestamp": "2023-12-02 15:55:40 +00:00",
     "branch_coverage": true,
     "show_contexts": true,
     "covered_lines": 86,
@@ -13,6 +13,22 @@
     "num_branches": 48,
     "num_partial_branches": 8,
     "covered_branches": 10,
-    "missing_branches": 38
+    "missing_branches": 38,
+    "node_id": "c79891e5-aabf-3a83-95b9-588edcd8327f",
+    "nfiles": 3,
+    "files": [
+      "kiirastuli/__init__.py",
+      "kiirastuli/cli.py",
+      "kiirastuli/kiirastuli.py"
+    ],
+    "blake3": "270a7debae9a74275b9601b01be4d410bbf7fd322664e203c5d9cdcac368baf2",
+    "blake2": "9bbcf63f28ac417c1381b26df865d13d0f64840ebbcd55f85fff71317ed650848d40b4c305938906b426ca904c3eed328db3b34db786aa0fd2ae70875205ff06",
+    "sha512": "9b075669a25db7bd87e9719d8f6a655dd92dd0d24423285c04b47baaa8ee71db7fb144d41811f27f7e873410f4d37d700d514f037e3f83c66c32a0caa75039c5",
+    "sha384": "6141c590d3cb88e85d778eb589a3abbe9b7b044a173d344abec7f8ff53f499dc837e90eebb7d893651f59cc9293ba089",
+    "sha256": "55762bcdc744bdd33a2e4ea724678ad3a36131b551b8499e95fcbf70c5ee86ca",
+    "sha1": "0c8b609d007bf53fee7cde549ee7249c6f1e80b0",
+    "md5": "218e81ecdd2dabee707076200e62d1b7",
+    "python_version": "3.10.12",
+    "entropy": 4.97067
   }
 }

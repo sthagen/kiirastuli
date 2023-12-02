@@ -1,0 +1,18 @@
+{
+  "kiirastuli": {
+    "version": "7.3.2",
+    "timestamp": "2023-12-02T15:20:00.844571",
+    "branch_coverage": true,
+    "show_contexts": true,
+    "covered_lines": 86,
+    "num_statements": 146,
+    "percent_covered": 49.48453608247423,
+    "percent_covered_display": "49.48",
+    "missing_lines": 60,
+    "excluded_lines": 1,
+    "num_branches": 48,
+    "num_partial_branches": 8,
+    "covered_branches": 10,
+    "missing_branches": 38
+  }
+}

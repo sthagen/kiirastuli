@@ -1,4 +1,5 @@
 """Purgatory (Finnish: kiirastuli) - purge like hell to stay out of trouble."""
+
 import datetime as dti
 import logging
 import os
